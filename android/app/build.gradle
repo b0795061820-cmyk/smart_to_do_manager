@@ -11,7 +11,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "com.bashar.smarttodomanger"
+    namespace "com.example.smart_to_do_manager"
 
     compileSdk flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
@@ -26,7 +26,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.bashar.smarttodomanger"
+        applicationId "com.example.smart_to_do_manager"
         minSdk flutter.minSdkVersion
         targetSdk flutter.targetSdkVersion
         versionCode flutter.versionCode
